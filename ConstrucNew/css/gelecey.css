@@ -59,12 +59,14 @@
 }
 
 .info__block-title h1 {
-    font-size: 58px;
+    font-size: 50px;
     font-weight: 600;
 }
 
 .info__block-title span {
     font-size: 28px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .info__block-text {
