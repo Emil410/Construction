@@ -15,6 +15,96 @@
     margin-left: auto;
 }
 
+#contact_form {
+    margin-top: 91px;
+    height: 1000px;
+}
+
+.contact {
+    width: 42%;
+}
+
+.contact h2 {
+    border-bottom: 1px solid #dadada;
+    display: inline-block;
+    font-size: 2.000rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+h2>span {
+    font-weight: 200;
+}
+
+.underline {
+    height: 4px;
+    width: 70px;
+    background: #73AE20;
+    display: block;
+    margin: 10px 0 -2px;
+}
+
+.contact p {
+    color: #5b5b5b;
+    line-height: normal;
+    font-size: .9rem;
+    font-family: 'Open Sans';
+    margin: 10px 0 10px;
+}
+
+#icons {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 25px;
+}
+
+#icon_first i {
+    background: #3e9fbe;
+    float: left;
+    height: 60px;
+    width: 64px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 4px;
+    color: white;
+}
+
+#icon_second i {
+    background-color: #73AE20;
+    float: left;
+    height: 60px;
+    width: 64px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 60px;
+    color: white;
+    border-radius: 4px;
+}
+
+#icon_third i {
+    background-color: #3e9fbe;
+    float: left;
+    height: 60px;
+    width: 64px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 4px;
+    color: white;
+    line-height: 60px;
+}
+
+.contact h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.1;
+    color: inherit;
+    margin: 5px 0 0 80px;
+}
+
 #form {
     width: 100%;
 }
@@ -260,6 +350,30 @@ h2>span {
     .container {
         width: 750px;
     }
+    #contact_form .container {
+        display: flex;
+        gap: 27px;
+        flex-direction: column;
+    }
+    #icons {
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+    }
+    #icon_first {
+        width: 34%;
+    }
+    #icon_second {
+        width: 34%;
+    }
+    #icon_third {
+        width: 34%;
+    }
     #form {
         width: 100%;
     }
@@ -268,6 +382,25 @@ h2>span {
 @media screen and (max-width: 768px) {
     .container {
         width: 500px;
+    }
+    #icons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    #icon_first {
+        width: 100%;
+    }
+    #icon_second {
+        width: 100%;
+    }
+    #icon_third {
+        width: 100%;
+    }
+    #contact_form {
+        margin-top: 91px;
+        height: 800px;
     }
 }
 
